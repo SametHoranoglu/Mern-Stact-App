@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+
+
+@media (min-width: 768px){
+  body {
+    margin: 0;
+      font-family: "Electrolize", serif;
+      font-weight: 400;
+      font-style: normal;  
+      overflow: hidden;
+      @apply bg-slate-100
+  }
+  .categories::-webkit-scrollbar{
+    display: none;
+  }
+  .products::-webkit-scrollbar{
+    display: none;
+  }
+  
+}
